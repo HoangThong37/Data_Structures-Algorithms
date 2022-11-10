@@ -1,36 +1,51 @@
 package Stack_and_queue;
 
+import java.util.Queue;
 import java.util.Stack;
 
 public class Stack_and_Queue {
-    public boolean isValid(String s) {
-        // stack
-        // Given a string s containing just
-        // the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid
-        Stack<Character> myCharacter = new Stack<>(); // tạo character
-        for (int i = 0; i < s.length(); i++) { // duyệt các phần tư
-            char c = s.charAt(i); // charAt nó trả về chỉ số index
+    // leetcode 20
+    public static boolean isValid(String s) {
+        Stack<Character> myStack = new Stack<>();  // tạo 1 cái Stack
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i); // trả về giá trị Char của chuỗi tại vị trí có chỉ số index được chỉ định được chỉ định
             if (c == '(' || c == '{' || c == '[' ) {
-                myCharacter.push(c);
+                myStack.push(c);
             }
-            else  {
-                if (myCharacter.isEmpty()) return false;
-                char openStack = myCharacter.peek();
-                if (c==')' && openStack=='('
-                        || c=='}' && openStack=='{'
-                        || c==']' && openStack=='[') {
-                    myCharacter.pop(); // nếu mà là cặp thì xóa
+            else {
+                char getElement = myStack.peek(); // lấy dữ liệu
+                if (c == ')' && getElement == '('
+                        || c == '}' && getElement == '{'
+                        || c == ']' && getElement == '[') {
+                    myStack.pop();
                 }
                 else {
                     return false;
                 }
             }
         }
-        return myCharacter.isEmpty();
+        return myStack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        String  s = "()[]{}";
+        System.out.println(isValid(s));
     }
 
 
+//    Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+//
+//    An input string is valid if:
+//
+//    Open brackets must be closed by the same type of brackets.
+//    Open brackets must be closed in the correct order.
+//    Every close bracket has a corresponding open bracket of the same type.
 
+//    Input: s = "()"
+//    Output: true
+
+//    Input: s = "(]"
+//    Output: false
 
 }
 
@@ -42,10 +57,24 @@ public class Stack_and_Queue {
 //      ví dụ : bỏ đồ vào cốc và lấy ra
 
 // Các thao tác chính khi làm việc với Stack và Queue là :
-//- push : Thêm ptu vào
-//- pop : Lấy ra 1 phần tử
+//- push : Thêm ptu vào danh sach
+//- pop : Lấy 1 phần tử ra khỏi danh sách(pop)
 //- peek : kiểm tra đã đày chưa
 //- isEmpty : kiểm tra isEmpty có rỗng k
+
+//+ Queue
+// Hoạt động enqueue(): thêm (hay lưu trữ) một phần tử vào trong hàng đợi.
+// Hoạt động dequeue(): xóa một phần tử từ hàng đợi.
+// Phương thức peek(): lấy phần tử ở đầu hàng đợi, mà không xóa phần tử này.
+// Phương thức isFull(): kiểm tra xem hàng đợi là đầy hay không.
+// Phương thức isEmpty(): kiểm tra xem hàng đợi là trống hay hay không.
+
+//     STACK :
+//        Hoạt động push():    lưu giữ một phần tử trên ngăn xếp.
+//        Hoạt động pop():     xóa một phần tử từ ngăn xếp.
+//        Hoạt động peek():    lấy phần tử dữ liệu ở trên cùng của ngăn xếp, mà không xóa phần tử này.
+//        Hoạt động isFull():  kiểm tra xem ngăn xếp đã đầy hay chưa.
+//        Hoạt động isEmpty(): kiểm tra xem ngăn xếp là trống hay không.
 
 // Cài đặt : Arrays -> Sử dụng 1 mảng array để làm buffer cho Stạk và Queue
 //                   +  Ưu điểm : dễ implement (cài đặt)
