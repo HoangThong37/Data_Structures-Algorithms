@@ -26,3 +26,16 @@ public class Cac_do_phuc_tap_co_ban {
 // Sắp xếp nổi bọt  : O(n^2)
 // Duyệt ma trận 2 chiều : O(n^2)
 // Fibonacci : O(2^n)
+
+//    Thuật toán đơn giản (Độ phức tạp thuật toán - O(n^2)):
+//        Sắp xếp chèn (insertion sort)
+//        Sắp xếp nổi bọt ( bubble sort)
+//        Sắp xếp lựa chọn (selection sort)
+//        Thuật toán hiệu quả (Độ phức tạp thuật toán - O(nlogn)):
+//        Sắp xếp vun đống (Heap sort)
+//        Sắp xếp trộn (Merge sort)
+//        Sắp xếp nhanh (Quick sort)
+//        Thuật toán đăc biệt (Độ phức tạp thuật toán - O(n)):
+//        Sắp xếp đếm (Counting Sort)
+//        Sắp xếp phân cụm (Bucket Sort)
+//        Sắp xếp cơ số (Radix Sort)
