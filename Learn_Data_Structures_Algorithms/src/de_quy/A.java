@@ -26,7 +26,7 @@ class M extends B {
 
     @Override
     public void d() {
-        System.out.println("C");
+        System.out.println("D");
     }
 }
 class Test44 {
