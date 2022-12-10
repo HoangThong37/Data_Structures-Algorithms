@@ -119,8 +119,8 @@ public class MyLinkedList {
         Node n3 = new Node(2);
 
 
-        n1.next = n2;
-        n2.next = n3;
+//        n1.next = n2;
+//        n2.next = n3;
 
        printListNode(n1);
        Node newList = addHead(n1, 0);
