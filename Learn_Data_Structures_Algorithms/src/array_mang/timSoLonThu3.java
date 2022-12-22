@@ -1,11 +1,26 @@
 package array_mang;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class timSoLonThu3 {
-    static int getThirdLargest(int[] arr, int total) {
-        Arrays.sort(arr);
-        return arr[total-3];
+//    static void getThirdLargest(int[] arr) {
+//        Set<Integer> set = new HashSet<>();
+//        for (int i : arr) {
+//            set.add(i);
+//        }
+//        //System.out.println(set.);
+////        return set.get;
+//    }
+
+    public static void main(String[] args) {
+        int[] sums = {100, 200, 300, 400 , 500,500,400};
+        Set<Integer> set = new TreeSet<>();
+        for (int i : sums) {
+            set.add(i);
+        }
+        System.out.println("Tree : " + set);
+        Integer[] value = set.toArray(new Integer[set.size()]);
+        System.out.println(value[set.size()-3]);
     }
 
 
@@ -23,13 +38,13 @@ public class timSoLonThu3 {
         return a[total - 3];
     }
 
-    public static void main(String args[]) {
-        int a[] = {1, 2, 5, 5, 6 ,5,6, 6,3,  3, 2};
-       // System.out.println(a.length);
-        int b[] = {44, 66, 99, 77, 33, 22, 55};
-        System.out.println("Third Largest: " + getThirdLargest(a, 6));
-        System.out.println("Third Largest: " + getThirdLargest(b, 7));
-    }
+//    public static void main(String args[]) {
+//        int a[] = {1, 2, 5, 5, 6 ,5,6, 6,3,  3, 2};
+//       // System.out.println(a.length);
+//        int b[] = {44, 66, 99, 77, 33, 22, 55};
+//        System.out.println("Third Largest: " + getThirdLargest(a, 6));
+//        System.out.println("Third Largest: " + getThirdLargest(b, 7));
+//    }
 }
 
 
@@ -70,3 +85,8 @@ public class timSoLonThu3 {
 //        find3(nums);
 //    }
 
+// lấy phần tử  lớn thứ 3 trong 1 mảng -> câu hỏi của fpt
+// làm cho a 2 cách.
+
+//  Cho input => [1,2,6,5,2,9,5]
+// output=> [3,11,11,5] tính tổng từng cặp 1 trong mảng,nếu kh đủ cặp thì giữ nguyên index lẻ
