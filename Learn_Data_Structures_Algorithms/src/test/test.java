@@ -1,38 +1,51 @@
 package test;
 
-import java.util.HashSet;
-import java.util.Set;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class test {
-    public static void themVao(int max[], int value) {
-        int vt = -1;
-        for (int i = 0; i < max.length; i++) { // Vd: 7 5 2 them 6
-            if (value > max[i]) { // tim vi tri i chen value
-                vt = i;
-                break;
-            } else if (value == max[i]) {// Neu da co value thi thoi
+    class Solve {
+        int[] arr;
+
+        public int[] solve(int[] arr) {
+            this.arr = arr;
+            Try(arr.length - 1, 1);
+            return this.arr;
+        }
+
+        void Try(int index, int add) {
+            if (add == 0) {
                 return;
             }
-        }
-        if (vt != -1) {// Bat dau qua trinh chen value vao vi tri i
-            for (int i = max.length - 2; i >= vt; i--) {
-                max[i + 1] = max[i];
+            if (index == -1) {
+                int[] newArr = new int[arr.length + 1];
+                newArr[0] = 1;
+                for (int i = 0; i < arr.length; i += 1) {
+                    newArr[i + 1] = arr[i];
+                }
+                arr = newArr;
+                return;
             }
-            max[vt] = value;
+            arr[index] = arr[index] + 1;
+            if (arr[index] == 10) {
+                arr[index] = 0;
+                Try(index - 1, 1);
+            }
         }
-
     }
 
-    public static int timMaxThu3_Cach1(int[] a) {
-        int[] max = new int[3];
-        for (int i = 0; i < a.length; i++) {
-            themVao(max, a[i]);
-        }
-        return max[3 - 1];
-    }
+    static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int[] n = {1,2,4,3,7, 8 ,6,6 ,4,5,4,5};
-        System.out.println(timMaxThu3_Cach1(n));
+        Solve solver = new test().new Solve();
+        System.out.print("Nhap do dai mang: ");
+        int n = sc.nextInt();
+        System.out.print("Nhap cac phan tu mang: ");
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println(Arrays.toString(solver.solve(arr)));
     }
 }
