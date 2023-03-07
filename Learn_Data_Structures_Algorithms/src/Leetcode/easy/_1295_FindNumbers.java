@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 //1295. Find Numbers with Even Number of Digits
 public class _1295_FindNumbers {

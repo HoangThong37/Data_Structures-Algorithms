@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 import java.util.concurrent.LinkedTransferQueue;
 

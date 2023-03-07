@@ -1,4 +1,4 @@
-package Sorting_thuattoansapxep;
+package Leetcode.easy;
 
 import java.util.Arrays;
 

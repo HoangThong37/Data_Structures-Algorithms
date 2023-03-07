@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 public class _88_Merge_Sorted {
     public static void merge(int[] n1, int m, int[] n2, int n) {

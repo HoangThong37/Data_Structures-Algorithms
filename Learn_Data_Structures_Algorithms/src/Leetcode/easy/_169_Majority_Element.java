@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 public class _169_Majority_Element {
 /*    public static int majorityElement(int[] nums) {

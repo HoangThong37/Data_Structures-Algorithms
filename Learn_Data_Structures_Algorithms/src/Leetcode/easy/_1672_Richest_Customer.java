@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 public class _1672_Richest_Customer {
     public static int maximumWealth(int[][] a) {

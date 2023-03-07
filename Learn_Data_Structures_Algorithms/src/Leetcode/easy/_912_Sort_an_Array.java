@@ -1,4 +1,4 @@
-package merge_sort;
+package Leetcode.easy;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package merge_sort;
+package Sorting_thuattoansapxep.merge_sort;
 
 public class li_thuyet {
 }

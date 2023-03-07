@@ -32,5 +32,6 @@ public class bigO_notation {
 //        Với mọi n > n0 ta luôn có  : C.g(n) >= f(n)
 //        Với mọi n > 1 ta luôn có  : 9n >= 8n + 1
 
-//              ====>>>>>>>>>>  độ phức tạp là O(n) <<<<<<<<<<========
+//====>>>>>>>>>>  độ phức tạp là O(n) <<<<<<<<<<========
 
+//https://www.youtube.com/watch?v=YYta5uWViJc

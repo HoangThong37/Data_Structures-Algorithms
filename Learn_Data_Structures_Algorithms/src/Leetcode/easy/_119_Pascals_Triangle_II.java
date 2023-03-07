@@ -15,7 +15,6 @@ public class _119_Pascals_Triangle_II {
                 }
             }
         }
-
         return list;
     }
 

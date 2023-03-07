@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 public class _27_Remove_Element {
     //    public static int removeElement(int[] nums, int val) {

@@ -1,4 +1,4 @@
-package array_mang;
+package Leetcode.easy;
 
 public class _1662_Check_If_Two_String {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
