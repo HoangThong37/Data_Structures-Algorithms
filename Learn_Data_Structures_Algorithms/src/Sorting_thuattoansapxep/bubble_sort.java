@@ -2,23 +2,30 @@ package Sorting_thuattoansapxep;
 
 public class bubble_sort {
     public static void bubbleSort(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length - 1 - i; j++) {
-                if (arr[j] > arr[j+1]) {
-                    int tmp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j+1] = tmp;
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    swap(arr, j, j+1);
                 }
-                //  j j+1 -> j+1 < n
-                // sau mỗi vòng lặp n giảm dần j<n-i-1
+                //System.out.println(arr[j] + " ");
             }
+
         }
+    }
+
+
+
+    private static void swap(int[] arr ,int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     public static void main(String[] args) {
         int[] a = {1, 3, 8, 5, 2, 10, 33, 11, 15, 24};
-        bubbleSort(a);
-       // System.out.println(bubbleSort(a));
+         bubbleSort(a);
+     //  System.out.println(bubbleSort(a));
     }
 }
 
