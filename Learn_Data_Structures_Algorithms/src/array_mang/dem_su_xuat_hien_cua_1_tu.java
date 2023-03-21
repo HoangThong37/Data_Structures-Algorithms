@@ -9,6 +9,7 @@ public class dem_su_xuat_hien_cua_1_tu {
         Map<Character, Integer> charCountMap = new HashMap<>();
         // sử dụng toCharArray convert chuỗi -> char
         char[] charArrays = inputString.toCharArray();
+        //char[] charArrays = inputString.getBytes();
         for (char c : charArrays) { // duyệt
             if (charCountMap.containsKey(c)) { // true
                 charCountMap.put(c, charCountMap.get(c) + 1);

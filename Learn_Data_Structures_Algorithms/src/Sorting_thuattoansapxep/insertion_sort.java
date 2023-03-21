@@ -2,18 +2,20 @@ package Sorting_thuattoansapxep;
 
 public class insertion_sort {
     public static void insertionSort(int[] arr) {
-        // bđ i = 1
         int n = arr.length;
         for (int i = 1; i < n; i++) {
-            int ai = arr[i];
+            int check = arr[i];
             int j = i - 1;
-            while (j>=0 && arr[j] > ai) {
-                arr[j+1] = arr[j];
+            while (j >= 0 && check < arr[j] ) {
+                arr[j + 1] = arr[j];
                 j--;
             }
-            arr[j+1] = ai; // đổi cả phần tử 0 cho nên phải j+1
+            arr[j+1] = check;
         }
 
+
+
+    }
 //        int n =arr.length;
 //        for (int i = 1; i < n; i++) { // i chạy từ 1
 //            int ai = arr[i]; // gán biến tạm ai = phần tử thứ i
@@ -27,9 +29,9 @@ public class insertion_sort {
 //
 //            // ai bị lùi sang bên pải nên là mh gán  ai=arr[i]
 //        }
-    }
+
     public static void main(String[] args) {
-        int[] a = {5, 7, 9, 2, 11};
+        int[] a = {12, 13,14,  10, 5, 6};
         insertionSort(a);
         // System.out.println(bubbleSort(a));
     }
