@@ -12,9 +12,6 @@ public class insertion_sort {
             }
             arr[j+1] = check;
         }
-
-
-
     }
 //        int n =arr.length;
 //        for (int i = 1; i < n; i++) { // i chạy từ 1

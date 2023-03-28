@@ -10,14 +10,13 @@ public class selection_sort {
             for (int j = minIndex + 1; j < n; j++) { // 2 1 => minindex = 0
                 if (arr[minIndex] > arr[j]) {
                     minIndex = j; // minindex = 1
-                }
+                } //
             }
             if (minIndex != i) {
                 int temp = arr[i];
                 arr[i] = arr[minIndex];
                 arr[minIndex] = temp;
             }
-
 
             printArray(i, arr);
         }
