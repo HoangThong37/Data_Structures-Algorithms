@@ -34,7 +34,7 @@ public class _136_Single_Number {
 
 
 //    Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
-//        You must implement a solution with a linear runtime complexity and use only constant extra space.
+//        You must implement a solution with a linear runtime complexity and use only utils extra space.
 
 // cho 1 mảng rỗng các số là interger không rỗng, mỗi phần tử xuất hiện 2 lần trừ 1 phần tử., tìm cái ptu đơn độc đó.
 //Input: nums = [4,1,2,1,2]

@@ -1,31 +1,33 @@
 package Sorting_thuattoansapxep;
 
 public class insertion_sort {
+//    public static void insertionSort(int[] arr) {
+//        int n = arr.length;
+//        for (int i = 1; i < n; i++) {
+//            int check = arr[i];
+//            int j = i - 1;
+//            while (j >= 0 && check < arr[j]) {
+//                arr[j + 1] = arr[j];
+//                j--;
+//            }
+//            arr[j + 1] = check;
+//        }
+//    }
+
     public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
-            int check = arr[i];
             int j = i - 1;
-            while (j >= 0 && check < arr[j] ) {
-                arr[j + 1] = arr[j];
-                j--;
+            int check = arr[i]; // tạo biến tạm để xét giá trị
+            while(j >= 0 && arr[j] > check) {
+                //if (arr[j] > arr[i]) {
+                    arr[j+1] = arr[j];
+                    j--;
+                //}
             }
             arr[j+1] = check;
         }
     }
-//        int n =arr.length;
-//        for (int i = 1; i < n; i++) { // i chạy từ 1
-//            int ai = arr[i]; // gán biến tạm ai = phần tử thứ i
-//            int j = i-1;
-//            while (j >= 0 && arr[j] > ai) { // chừng nào mà ptu j đầu tiên >= 0 và a[j] > ai thì lùi về sau
-//                arr[j+1] = arr[j];  // 5 7 9 2 38
-//                j--;
-//            }
-//            arr[j+1] = ai; // ptu cuối cùng, nó -- r đến -1 cho nên có dòng lệnh này -> a[0]
-//            // 3 5 2 -> 3 2 5 -> 2 3 5
-//
-//            // ai bị lùi sang bên pải nên là mh gán  ai=arr[i]
-//        }
 
     public static void main(String[] args) {
         int[] a = {12, 13,14,  10, 5, 6};
