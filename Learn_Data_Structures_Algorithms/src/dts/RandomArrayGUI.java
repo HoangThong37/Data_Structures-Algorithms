@@ -83,7 +83,7 @@ public class RandomArrayGUI extends JFrame implements ActionListener{
                 int len = random.nextInt(5) + 1;
                 StringBuilder sb = new StringBuilder();
                 for(int j = 0; j < len; j++) {
-                    char c = (char) (random.nextInt(26) + 'a'); // tạo kí tự từ a-z
+                    char c = (char) (random.nextInt(26) + 'a'); // tạo kí tự từ LongestWord-z
                     if (random.nextInt(2) == 1) { // xac suất 50%, chuyển sang kí tự hoa
                         c = Character.toUpperCase(c);
                     }

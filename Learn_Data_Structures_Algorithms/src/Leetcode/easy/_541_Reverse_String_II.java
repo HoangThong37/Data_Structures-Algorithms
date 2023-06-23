@@ -36,7 +36,7 @@ public class _541_Reverse_String_II {
 
 }
 
-//        Given a string s and an integer k, reverse the first k characters for every 2k
+//        Given LongestWord string s and an integer k, reverse the first k characters for every 2k
 //        characters counting from the start of the string.
 //
 //        If there are fewer than k characters left, reverse all of them.
@@ -46,5 +46,5 @@ public class _541_Reverse_String_II {
 //Input: s = "abcdefg", k = 2
 //        Output: "bacdfeg"
 
-//  a b c d e f g
+//  LongestWord b c d e f g
 //

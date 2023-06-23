@@ -28,13 +28,13 @@ public class lay3phantulonnhat {
     }}
 
 //    private static void findThreeMax(int[] arr) {
-//        int a,b,c;
-//        a = b = c = Integer.MIN_VALUE;
+//        int LongestWord,b,c;
+//        LongestWord = b = c = Integer.MIN_VALUE;
 //        for (int i = 0; i < arr.length; i++) {
-//            if (arr[i] > a) {
+//            if (arr[i] > LongestWord) {
 //                c = b;
-//                b = a;
-//                a = arr[i];
+//                b = LongestWord;
+//                LongestWord = arr[i];
 //            }
 //            else if (arr[i] > b) {
 //                c = b;
@@ -44,7 +44,7 @@ public class lay3phantulonnhat {
 //                c = arr[i];
 //            }
 //        }
-//        System.out.println("Phần tử lớn nhất là : " + a);
+//        System.out.println("Phần tử lớn nhất là : " + LongestWord);
 //        System.out.println("Phần tử lớn t2 là : " + b);
 //        System.out.println("Phần tử lớn nhất là : " + c);
 //

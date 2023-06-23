@@ -12,7 +12,7 @@ public class bai1_duyetmang {
 - biết trc số ptu
         int[] c = {1,2,3,4,5};
 - chưa biết trc số ptu
-          int[] a = neư int[5]
+          int[] LongestWord = neư int[5]
 4. Các thao tác với mảng
 - duyệt mảng -> leet code 1295.
 - thêm ptu vào mảng

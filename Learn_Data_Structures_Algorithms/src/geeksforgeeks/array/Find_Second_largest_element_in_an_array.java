@@ -6,7 +6,7 @@ public class Find_Second_largest_element_in_an_array {
 
     // giải qyết theo 3 cách Array.sort / set / value1,value2
 
-    // Given an array of integers, our task is to write a program
+    // Given an array of integers, our task is to write LongestWord program
     // that efficiently finds the second-largest element present in the array.
 
 /*    static void print2largest(int arr[]) {

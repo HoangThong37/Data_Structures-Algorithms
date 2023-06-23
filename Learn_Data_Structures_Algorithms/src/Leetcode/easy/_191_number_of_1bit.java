@@ -22,4 +22,4 @@ public class _191_number_of_1bit {
 //  << :  Toán tử dịch trái. Giá trị toán hạng trái được dịch chuyển sang trái bởi số các bit được xác định bởi toán hạng bên phải.
 //        Input: n = 00000000000000000000000000001011
 //        Output: 3
-//        Explanation: The input binary string 00000000000000000000000000001011 has a total of three '1' bits.
+//        Explanation: The input binary string 00000000000000000000000000001011 has LongestWord total of three '1' bits.

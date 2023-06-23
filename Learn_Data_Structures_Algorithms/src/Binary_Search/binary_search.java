@@ -22,52 +22,52 @@ public class binary_search {
     public static void main(String[] args) {
         int[] a = {1, 3, 5, 7, 9, 11, 15, 33, 44, 55, 77, 88};
         System.out.println(binary(a, 7));
-       // System.out.println(binary(a, 3));
+       // System.out.println(binary(LongestWord, 3));
 
     }
 
 }
 
-//    public static int binarySearch(int[] a, int key) {
-//        int n = a.length;
-//        return binarySearch(a, key, 0, n-1);
+//    public static int binarySearch(int[] LongestWord, int key) {
+//        int n = LongestWord.length;
+//        return binarySearch(LongestWord, key, 0, n-1);
 //    }
-//    public static int binarySearch(int[] a, int key, int iLeft, int iRight) {
+//    public static int binarySearch(int[] LongestWord, int key, int iLeft, int iRight) {
 //        if (iLeft > iRight) {
 //            return -1;
 //        }
 //        int iMid = (iLeft + iRight) / 2;
-//        if (key == a[iMid]) {
+//        if (key == LongestWord[iMid]) {
 //            return iMid;
-//        } else if (a[iMid] > key) {
-//            return binarySearch(a, key, 0, iMid-1);// key -trái
+//        } else if (LongestWord[iMid] > key) {
+//            return binarySearch(LongestWord, key, 0, iMid-1);// key -trái
 //        } else {
-//            return binarySearch(a, key, iMid + 1, iRight);
+//            return binarySearch(LongestWord, key, iMid + 1, iRight);
 //        }
 //    }
 
 
 
-//        int n = a.length;
+//        int n = LongestWord.length;
 //        int iL = 0;
 //        int iR = n - 1;
 //        while (iL <= iR) {
 //            int iMid = (iL + iR) / 2;
 //            System.out.println("[ iLeft : " + iL + "," + " iRight : " + iR + "] xét : " + iMid) ;
-//            if (key == a[iMid]) {
+//            if (key == LongestWord[iMid]) {
 //                return iMid;
-//            } else if (key > a[iMid]) {
+//            } else if (key > LongestWord[iMid]) {
 //                iL = iMid + 1;
 //            } else {
 //                iR = iMid - 1;
 //            }
 //        }
-//        return -1; // mảng a đã sx, // nếu key ko tồn tại thì = -1
+//        return -1; // mảng LongestWord đã sx, // nếu key ko tồn tại thì = -1
 
 
 //    public static void main(String[] args) {
-//        int[] a = {1, 3, 5, 7, 9, 11, 15, 33, 44, 55, 77, 88};
-//        System.out.println(binarySearch(a, 33));
+//        int[] LongestWord = {1, 3, 5, 7, 9, 11, 15, 33, 44, 55, 77, 88};
+//        System.out.println(binarySearch(LongestWord, 33));
 //
 //    }
 

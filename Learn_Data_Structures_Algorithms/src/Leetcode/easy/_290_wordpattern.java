@@ -28,8 +28,8 @@ public class _290_wordpattern {
   //  }
 }
 
-//    Given a pattern and a string s, find if s follows the same pattern.
-//        Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
+//    Given LongestWord pattern and LongestWord string s, find if s follows the same pattern.
+//        Here follow means LongestWord full match, such that there is LongestWord bijection between LongestWord letter in pattern and LongestWord non-empty word in s.
 
 //Example 1:
 //

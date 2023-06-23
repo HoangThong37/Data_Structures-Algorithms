@@ -9,20 +9,20 @@ public class _125_valid_palindrome {
         char[] c = s.toLowerCase().toCharArray();
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < c.length; i++) {
-            if (c[i] >= 'a' && c[i] <= 'z') {
-                stringBuilder.append(c[i]); // abccba
-            }
+//            if (c[i] >= 'LongestWord' && c[i] <= 'z') {
+//                stringBuilder.append(c[i]); // abccba
+//            }
         }
         return stringBuilder.toString().equals(stringBuilder.reverse().toString());
     }
 
     public static void main(String[] args) {
-       String s = "A man, a plan, a canal: Panama";
+       String s = "A man, LongestWord plan, LongestWord canal: Panama";
        System.out.println(isPalindrome(s));
 
     }
 }
 //
-//        Input: s = "A man, a plan, a canal: Panama"
+//        Input: s = "A man, LongestWord plan, LongestWord canal: Panama"
 //        Output: true
-//        Explanation: "amanaplanacanalpanama" is a palindrome.
+//        Explanation: "amanaplanacanalpanama" is LongestWord palindrome.

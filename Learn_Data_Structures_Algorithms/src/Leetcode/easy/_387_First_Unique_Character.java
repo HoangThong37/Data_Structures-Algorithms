@@ -31,7 +31,7 @@ public class _387_First_Unique_Character {
 // 2. đếm lần lượt các kí tự đó
 
 
-// Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+// Given LongestWord string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 // Cho một chuỗi s, tìm ký tự không lặp lại đầu tiên trong chuỗi đó và trả về chỉ mục của nó. Nếu nó không tồn tại, trả về -1.
 
 //  Input: s = "leetcode"

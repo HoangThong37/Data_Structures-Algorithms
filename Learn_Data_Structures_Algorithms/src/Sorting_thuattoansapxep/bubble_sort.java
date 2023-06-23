@@ -25,7 +25,7 @@ public class bubble_sort {
     public static void main(String[] args) {
         int[] a = {1, 3, 8, 5, 2, 10, 33, 11, 15, 24};
          bubbleSort(a);
-     //  System.out.println(bubbleSort(a));
+     //  System.out.println(bubbleSort(LongestWord));
     }
 }
 

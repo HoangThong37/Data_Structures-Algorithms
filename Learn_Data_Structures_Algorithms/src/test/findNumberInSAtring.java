@@ -33,7 +33,7 @@ public class findNumberInSAtring {
 
      // đếm số lần xuất hiện của 1 kí tự trong chuỗi java
 //     public static void main(String[] args) {
-//         String test = "Thong dep trai vl a a hihi ee";
+//         String test = "Thong dep trai vl LongestWord LongestWord hihi ee";
 //
 //         Map<Character, Integer> result = new HashMap<>();
 //         // convert từ chuỗi -> mảng char
@@ -53,7 +53,7 @@ public class findNumberInSAtring {
     // tách nhau bởi khoảng trắng
     // .split("")
 //    public static void main(String[] args) {
-//        String test = "Thong dep trai vl a a hihi ee";
+//        String test = "Thong dep trai vl LongestWord LongestWord hihi ee";
 //        Map<String, Integer> result = new HashMap<>();
 //        String[] arr = test.split(" ");
 //        for (String item : arr) {
@@ -68,7 +68,7 @@ public class findNumberInSAtring {
 
     public static void main(String[] args) {
         // đảo ngược chuỗi string bằng byte
-        String test = "Thong dep trai vl a a hihi ee";
+        String test = "Thong dep trai vl LongestWord LongestWord hihi ee";
 
         byte[] bytes = test.getBytes();
         byte[] arrBytes = new byte[test.length()]; //  tạo 1 mảng với số lượng ptu = so lượng chuỗi.

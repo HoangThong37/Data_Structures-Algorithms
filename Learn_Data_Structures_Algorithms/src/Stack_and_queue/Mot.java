@@ -34,9 +34,9 @@ public class Mot {
 
 }
 
-//Assume '#' is like a backspace in string. This means that string 'a#bc#d' actually is 'bd'
+//Assume '#' is like LongestWord backspace in string. This means that string 'LongestWord#bc#d' actually is 'bd'
 //
-//        Your task is to process a string with '#' symbols.
+//        Your task is to process LongestWord string with '#' symbols.
 //
 //        Examples
 //        "acb#e##c" ==> "ac"

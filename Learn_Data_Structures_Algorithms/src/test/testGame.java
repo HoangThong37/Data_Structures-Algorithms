@@ -42,7 +42,7 @@ public class testGame {
 
 
 
-//    You are given a string of words (x), for each word within the string you need to
+//    You are given LongestWord string of words (x), for each word within the string you need to
 //        turn the word 'inside out'. By this I mean the internal letters will move out,
 //        and the external letters move toward the centre.
 //

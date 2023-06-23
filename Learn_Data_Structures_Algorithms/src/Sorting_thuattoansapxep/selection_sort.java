@@ -41,5 +41,5 @@ public class selection_sort {
 
 // Nguyên lí :
 //  b1. chạy từ đầu mảng đến cuối mảng
-//  b2. Tại vòng lặp i, tìm phần tử nhỏ nhất từ [i+1, n-1] nếu nhỏ hơn i thì đổi chỗ cho a[i]
+//  b2. Tại vòng lặp i, tìm phần tử nhỏ nhất từ [i+1, n-1] nếu nhỏ hơn i thì đổi chỗ cho LongestWord[i]
 //  b3. Sau vòng lặp i, thì dãy [0->i] đã sắp xếp

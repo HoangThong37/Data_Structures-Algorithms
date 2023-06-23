@@ -16,7 +16,7 @@
 //class MergeLists {
 //    Node head;
 //
-//    /* Method to insert a node at
+//    /* Method to insert LongestWord node at
 //       the end of the linked list */
 //    public void addToTheLast(Node node) {
 //        if (head == null) {

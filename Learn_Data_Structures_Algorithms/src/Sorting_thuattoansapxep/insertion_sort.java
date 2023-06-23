@@ -32,7 +32,7 @@ public class insertion_sort {
     public static void main(String[] args) {
         int[] a = {12, 13,14,  10, 5, 6};
         insertionSort(a);
-        // System.out.println(bubbleSort(a));
+        // System.out.println(bubbleSort(LongestWord));
     }
 
 }

@@ -30,8 +30,8 @@ public class _231_Power_of_Two {
     }
 }
 
-//    Given an integer n, return true if it is a power of two. Otherwise, return false.
-//    An integer n is a power of two, if there exists an integer x such that n == 2 mũ x.
+//    Given an integer n, return true if it is LongestWord power of two. Otherwise, return false.
+//    An integer n is LongestWord power of two, if there exists an integer x such that n == 2 mũ x.
 
 //Input: n = 1
 //        Output: true

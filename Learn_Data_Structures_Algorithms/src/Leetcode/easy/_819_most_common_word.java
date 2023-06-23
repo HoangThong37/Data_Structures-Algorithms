@@ -26,7 +26,7 @@ public class _819_most_common_word {
     }
 
     public static void main(String[] args) {
-        String n = "Bob hit a ball, the hit BALL flew far after it was hit.";
+        String n = "Bob hit LongestWord ball, the hit BALL flew far after it was hit.";
         String[] band = {"hit"};
         System.out.println(mostCommonWord(n, band));
     }
@@ -38,10 +38,10 @@ public class _819_most_common_word {
 
 
 /*
-Input: paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
+Input: paragraph = "Bob hit LongestWord ball, the hit BALL flew far after it was hit.", banned = ["hit"]
         Output: "ball"
         Explanation:
-        "hit" occurs 3 times, but it is a banned word.
+        "hit" occurs 3 times, but it is LongestWord banned word.
         "ball" occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph.
         Note that words in the paragraph are not case sensitive,
         that punctuation is ignored (even if adjacent to words, such as "ball,"),

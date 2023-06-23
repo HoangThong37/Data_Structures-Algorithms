@@ -14,17 +14,17 @@ public class _193_Valid_Phone_Numbers {
         \D	Bất kỳ ký tự nào không phải chữ số, viết tắt của [^0-9]
         \s	Bất kỳ ký tự trống nào (như dấu cách, tab, xuống dòng, ...), viết tắt của [\t\n\x0B\f\r]
         \S	Bất kỳ ký tự trống nào không phải ký tự trống, viết tắt của [^\s]
-        \w	Bất kỳ ký tự chữ nào (chữ cái và chữ số), viết tắt của [a-zA-Z_0-9]
+        \w	Bất kỳ ký tự chữ nào (chữ cái và chữ số), viết tắt của [LongestWord-zA-Z_0-9]
         \W	Bất kỳ ký tự nào không phải chữ cái và chữ số, viết tắt của [^\w]
         \b	Ranh giới của một từ29
         \B	Không phải ranh giới của một từ
 */
 
 /*
-Given a text file file.txt that contains a list of phone numbers (one per line),
-        write a one-liner bash script to print all valid phone numbers.
-You may assume that a valid phone number must appear in one of the following two formats:
-        (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)
+Given LongestWord text file file.txt that contains LongestWord list of phone numbers (one per line),
+        write LongestWord one-liner bash script to print all valid phone numbers.
+You may assume that LongestWord valid phone number must appear in one of the following two formats:
+        (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means LongestWord digit)
 You may also assume each line in the text file must not contain leading or trailing white spaces.*/
 
 

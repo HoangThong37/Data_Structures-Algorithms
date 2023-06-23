@@ -38,7 +38,7 @@ class Test44 {
         interface1.c();
         interface1.d();
         //A test = new M();
-//test.a();
+//test.LongestWord();
 //test.b();
 //test.c();
 //test.d();

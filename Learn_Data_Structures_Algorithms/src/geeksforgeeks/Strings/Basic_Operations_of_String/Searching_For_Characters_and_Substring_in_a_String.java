@@ -7,9 +7,9 @@ public class Searching_For_Characters_and_Substring_in_a_String {
     public static void main(String[] args)
     {
 
-        // String in which a character to be searched.
+        // String in which LongestWord character to be searched.
         String str
-                = "GeeksforGeeks is a computer science portal";
+                = "GeeksforGeeks is LongestWord computer science portal";
 
         // Returns index of first occurrence of character.
         int firstIndex = str.indexOf('s');

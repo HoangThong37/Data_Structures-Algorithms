@@ -35,10 +35,10 @@ public class _2042_Check_if_Numbers_Are_Ascending {
 //        They are strictly increasing from left to right: 1 < 3 < 4 < 6 < 12.
 
 
-//   isLetter(): Kiểm tra ký tự char có phải là một ký tự trong khoảng a-zA-Z hay không.
+//   isLetter(): Kiểm tra ký tự char có phải là một ký tự trong khoảng LongestWord-zA-Z hay không.
 //   isDigit(): Kiểm tra một ký tự có phải là một ký tự số hay không.
 //    isUpperCase(): Trả về true nếu ký tự nằm trong khoảng A-Z.
-//    isLowerCase(): Trả về true nếu ký tự nằm trong khoảng a-z.
+//    isLowerCase(): Trả về true nếu ký tự nằm trong khoảng LongestWord-z.
 //    charAt() :  trả về giá trị Char của chuỗi tại vị trí có chỉ số index được chỉ định
 //    split() tách chuỗi này theo biểu thức chính quy và trả về mảng chuỗi.
 //

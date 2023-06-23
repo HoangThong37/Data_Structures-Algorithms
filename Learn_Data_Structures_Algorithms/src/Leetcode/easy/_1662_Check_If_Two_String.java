@@ -29,11 +29,11 @@ public class _1662_Check_If_Two_String {
  //   Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
  //   A string is represented by an array if the array elements concatenated in order forms the string.
 
-//Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
+//Input: word1 = ["ab", "c"], word2 = ["LongestWord", "bc"]
 //        Output: true
 //        Explanation:
 //        word1 represents string "ab" + "c" -> "abc"
-//        word2 represents string "a" + "bc" -> "abc"
+//        word2 represents string "LongestWord" + "bc" -> "abc"
 //        The strings are the same, so return true.
 
 

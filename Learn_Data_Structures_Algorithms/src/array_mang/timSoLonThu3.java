@@ -39,10 +39,10 @@ public class timSoLonThu3 {
     }
 
 //    public static void main(String args[]) {
-//        int a[] = {1, 2, 5, 5, 6 ,5,6, 6,3,  3, 2};
-//       // System.out.println(a.length);
+//        int LongestWord[] = {1, 2, 5, 5, 6 ,5,6, 6,3,  3, 2};
+//       // System.out.println(LongestWord.length);
 //        int b[] = {44, 66, 99, 77, 33, 22, 55};
-//        System.out.println("Third Largest: " + getThirdLargest(a, 6));
+//        System.out.println("Third Largest: " + getThirdLargest(LongestWord, 6));
 //        System.out.println("Third Largest: " + getThirdLargest(b, 7));
 //    }
 }
@@ -86,7 +86,7 @@ public class timSoLonThu3 {
 //    }
 
 // lấy phần tử  lớn thứ 3 trong 1 mảng -> câu hỏi của fpt
-// làm cho a 2 cách.
+// làm cho LongestWord 2 cách.
 
 //  Cho input => [1,2,6,5,2,9,5]
 // output=> [3,11,11,5] tính tổng từng cặp 1 trong mảng,nếu kh đủ cặp thì giữ nguyên index lẻ

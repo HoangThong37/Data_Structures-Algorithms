@@ -9,7 +9,7 @@ public class _88_Merge_Sorted {
         }
     }
     private static void insert(int a, int[] n1, int m) {
-        // a: phần tử cần chèn
+        // LongestWord: phần tử cần chèn
         // tìm cái vị trí mà cần chèn vào (k > chèn)
         boolean findK = false;
         for (int k = 0; k < m; k++) {
@@ -23,7 +23,7 @@ public class _88_Merge_Sorted {
             }
         }
         if (findK == false) {
-            // vị trí cuối cùng chính là phần tử cần điền vô là a
+            // vị trí cuối cùng chính là phần tử cần điền vô là LongestWord
             n1[m] = a;
         }
     }
