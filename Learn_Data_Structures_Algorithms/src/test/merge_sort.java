@@ -44,8 +44,8 @@ public class merge_sort {
 
         // merge các mảng tạm lại
         int i = 0, j = 0; // chỉ mục ban đầu của 2 mảng con
-
         int k = l; // bắt đầu bên trái
+
         while (i < n1 && j < n2) {
             if (L[i] < R[j]) {
                 arr[k] = L[i];

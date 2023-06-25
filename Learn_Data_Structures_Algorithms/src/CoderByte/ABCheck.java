@@ -17,9 +17,9 @@ public class ABCheck {
      * @param args command line arguments
      */
     public static void main(String[] args) {
-        var result1 = abCheck("lane borrowed");
+        String result1 = abCheck("lane borrowed");
         System.out.println(result1);
-        var result2 = abCheck("australia")
+        String result2 = abCheck("australia");
         System.out.println(result2);
     }
 }

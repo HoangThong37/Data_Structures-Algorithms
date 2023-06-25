@@ -14,7 +14,6 @@ public class quick_sort1 {
         //
         //int n = arr.length;
         int pivot = arr[right];
-
         int j = left - 1;
 
         for (int i = left; i < right; i++) {

@@ -1,11 +1,6 @@
 # Data-Structures---Algorithms
 Learn Data Structures - Algorithms and solve corresponding exercises on Leetcode.
 Phần 1. Array and String
-1. Duyệt mảng
-2. Thêm, chèn phần tử vào mảng
-3. Xóa phần tử trong mảng
-4. Kĩ thuật 2 con trỏ xóa phần tử trong mảng
-5. Kĩ thuật 2 con trỏ thêm phần tử trong mảng
 
 Phần 2. Sorting
    
@@ -31,4 +26,11 @@ Phần 12: Graph | Đồ thị
 
 Phần 13: Heap | Đống
 
-===> Hoàng Trung Thông <====
+##Thực hành 
+
++ Leetcode
++ HackerRank
++ Geeksforgeeks
++ CoderByte
+
+# Hoàng Trung Thông 

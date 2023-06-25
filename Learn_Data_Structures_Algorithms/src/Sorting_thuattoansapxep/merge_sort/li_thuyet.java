@@ -84,7 +84,8 @@ public class li_thuyet {
 
 //=> trộn mảng cuối cùng là xong
 
-//   Độ phức tạp thời gian trong trường hợp xấu nhất, tốt nhất, trung bình của Merge Sort đều là O(nlogn), điều này làm cho Merge Sort tỏ ra khá hiệu quả.
-//   Merge sort là một lựa chọn khi cần một thuật toán để sắp xếp có tính ổn định, khác với quick sort, không ổn định cho lắm.
+//   Độ phức tạp thời gian trong trường hợp xấu nhất, tốt nhất, trung bình của Merge Sort đều là O(nlogn),
+//   điều này làm cho Merge Sort tỏ ra khá hiệu quả.
+//    Merge sort là một lựa chọn khi cần một thuật toán để sắp xếp có tính ổn định, khác với quick sort, không ổn định cho lắm.
 //    Nhược điểm của merge sort có thể kể đến như không hiệu quả lắm về mặt không gian, khi độ phức tạp không gian trong trường hợp xấu nhất là O(n)
 //    trong khi của quick sort là O(1)
