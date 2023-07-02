@@ -1,57 +1,70 @@
 package test;
 
-
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class test {
-//    class Solve {
-//        int[] arr;
-//
-//        public int[] solve(int[] arr) {
-//            this.arr = arr;
-//            Try(arr.length - 1, 1);
-//            return this.arr;
-//        }
-//
-//        void Try(int index, int add) {
-//            if (add == 0) {
-//                return;
-//            }
-//            if (index == -1) {
-//                int[] newArr = new int[arr.length + 1];
-//                newArr[0] = 1;
-//                for (int i = 0; i < arr.length; i += 1) {
-//                    newArr[i + 1] = arr[i];
-//                }
-//                arr = newArr;
-//                return;
-//            }
-//            arr[index] = arr[index] + 1;
-//            if (arr[index] == 10) {
-//                arr[index] = 0;
-//                Try(index - 1, 1);
-//            }
-//        }
-//    }
-
-
-
-//    public static void main(String[] args) {
-//        Solve solver = new test().new Solve();
-//        System.out.print("Nhap do dai mang: ");
-//        int n = sc.nextInt();
-//        System.out.print("Nhap cac phan tu mang: ");
-//        int[] arr = new int[n];
-//        for (int i = 0; i < n; i++) {
-//            arr[i] = sc.nextInt();
-//        }
-//        System.out.println(Arrays.toString(solver.solve(arr)));
-//    }
 
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            String str = "CÔ NHUNG XINH GÁI";
+        //int[] arr = {3,2,4,6,1,8,7,9,5};
+        // sapxepchen(arr);
+        String test = "thongbwm4hdg32ghdg3";
+
+        Pattern pattern = Pattern.compile("\\d++"); // d - so khớp với các kí tự là chữ số
+        Matcher matcher = pattern.matcher(test);    // ktra xem biểu thức chính quy
+        while (matcher.find()) {
+            if(matcher.find())// còn đúng {
+            System.out.println(matcher.group());    // trả về chuỗi con phù hợp
         }
+
+
+//        String[] arrStr = test.split("\\D+");
+//        for (String item : arrStr) {
+//            if (!item.isEmpty())   {
+//              //  Character.isDigit()
+//
+//              //  System.out.println(item instanceof String);
+//            } //
+//        }
+//
+//
+//
+//             charAt() <-> Character.isDigit()  -> ktra so
+//                                   .isLetter() ->
+//
+//            for (int i = 0; i < arrStr.length; i++) {
+//               if (arrStr[i] != null) {
+//                  System.out.println(arrStr[i]);
+//               }
+//            }
     }
+
+
+//    private static void sapxepchen(int[] arr) {
+//          int n = arr.length;
+//
+//        for (int i = 1; i < n; i++) {
+//            int key = arr[i];
+//            int j = i - 1;
+//
+//            while (j >= 0 && arr[j] > key) {
+//
+//                arr[j + 1] = arr[j];
+//                j--;
+//            }
+//            arr[j+1] = key;
+//            // 2 3 1 4
+//        }
+//
+//        for (int i = 0; i < n; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//
+//    }
+    // tt sxc - sx giá trị từ nhỏ đến lớn
+    // b1. mình sẽ chạy ptu từ vị trí i = 1
+     // b2. s s xem ptu hien tai vs pt dung trc no, neu mà ptu hien tai nho hon ptu dung trc no thi minh lai so sanh
+    // ptu htai vs các ptu dung trc no nz
+    // tăng vị trí cua nhung ptu lon hon pt ht len 1 de khoang trong dó cho ptu hien tai
+
 }

@@ -31,7 +31,7 @@ public class Cac_do_phuc_tap_co_ban {
 //        Sắp xếp chèn (insertion sort)
 //        Sắp xếp nổi bọt ( bubble sort)
 //        Sắp xếp lựa chọn (selection sort)
-//          Thuật toán hiệu quả (Độ phức tạp thuật toán - O(nlogn)):
+//        Thuật toán hiệu quả (Độ phức tạp thuật toán - O(nlogn)):
 //        Sắp xếp vun đống (Heap sort)
 //        Sắp xếp trộn (Merge sort)
 //        Sắp xếp nhanh (Quick sort)

@@ -1,5 +1,7 @@
 package test;
 
+import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
+
 public class insert_sort {
     // sắp xếp mảng theo thứ tự bé -> lớn
     // thuật toán sắp xếp chèn
@@ -8,41 +10,32 @@ public class insert_sort {
     // nếu ptu chính < ptu trước của nó, hãy so sánh nó với các ptu trc đó.
     // di chuyển những ptu lớn hơn lên 1 vị trí để tạo khoảng trống cho ptu bị hoán đổi
 
-    void sort(int[] arr) {
-        int n = arr.length;
+    // code tìm số trong 1 chuỗi
 
-        for (int i = 1; i < n; i++) {
-            int key = arr[i];
-            int j = i - 1;
+    public static void main(String[] args) {
+        String a = "THONG3tt5jjghs8";
 
-            while (j >= 0 && arr[j] > key) {
-                arr[j + 1] = arr[j];
-                j = j-1;
+        for (int i = 0; i < a.length(); i++) {
+            char c = a.charAt(i);
+//            if (Character.isDigit(c)) { // số
+//                System.out.println(c + " ");
+//            }
+
+//            if (Character.isLetter(c)) { // chữ
+//                System.out.print(c + " ");
+//            }
+
+//            if (Character.isUpperCase(c)) { // những kí tự hoa
+//                System.out.println(c + " ");
+//            }
+            if (Character.isLowerCase(c)) {
+                System.out.println(c + " "); // những kí tự thường
             }
-            arr[j + 1] = key;
-            // 25 25 10
+
+
 
         }
     }
-    // In các phần tử của mảng
-    static void printArray(int arr[]) {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
-
-        System.out.println();
-    }
-
-    public static void main(String args[]) {
-        int arr[] = { 12, 11, 13, 5, 6 };
-        System.out.println("Mảng ban đầu:");
-        printArray(arr);
-        insert_sort ob = new insert_sort();
-        ob.sort(arr);
-        System.out.println("Mảng sau khi sắp xếp:");
-        printArray(arr);
-    }
-
 
 
 }

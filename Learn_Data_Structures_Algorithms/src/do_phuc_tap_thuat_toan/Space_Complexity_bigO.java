@@ -13,7 +13,7 @@ public class Space_Complexity_bigO {
 //  O(n), O(n2) : Thay đổi theo input đề bài
 // -> Mục tiêu: giải quyết đc bài toán vs thuật toán tối ưu nhất có thể
 
-// Gỉai quyết :
+// giải quyết :
 // - Tối ưu cách làm / phương pháp
 // - Nâng cấp bộ nhớ
 
