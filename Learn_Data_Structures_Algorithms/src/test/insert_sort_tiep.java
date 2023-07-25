@@ -30,11 +30,11 @@ public class insert_sort_tiep {
         }
     }
 
-    // b1. duyệt mảng từ vị trí 2.
+    // b1. duyệt mảng từ vị trí 1.
     // so sánh phần tử hiện tại với những phần tử trc đó
     // Nếu phần tử hiện tại < ptu đang xét,  hoán đổi vị trí cho nó
-    // tiếp tục so sash và hoán đổi khi nào mà ptu hiện tại đứng đúng chỗ của nó trong mảng đã đc sx
-    // lặp lại quá trình trên cho các phần tử còn lại trong mảng..
+    // tiếp tục so sánh và hoán đổi khi nào mà ptu hiện tại đứng đúng chỗ của nó trong mảng đã đc sx
+    // lặp lại quá trình trên cho các phần tử còn lại trong mảng...
 
 
 

@@ -1,39 +1,45 @@
 package Sorting_thuattoansapxep;
 
 public class insertion_sort {
-//    public static void insertionSort(int[] arr) {
-//        int n = arr.length;
-//        for (int i = 1; i < n; i++) {
-//            int check = arr[i];
-//            int j = i - 1;
-//            while (j >= 0 && check < arr[j]) {
-//                arr[j + 1] = arr[j];
-//                j--;
-//            }
-//            arr[j + 1] = check;
-//        }
-//    }
 
-    public static void insertionSort(int[] arr) {
-        int n = arr.length;
-        for (int i = 1; i < n; i++) {
-            int j = i - 1;
-            int check = arr[i]; // tạo biến tạm để xét giá trị
-            while(j >= 0 && arr[j] > check) {
-                //if (arr[j] > arr[i]) {
-                    arr[j+1] = arr[j];
-                    j--;
-                //}
-            }
-            arr[j+1] = check;
-        }
-    }
 
     public static void main(String[] args) {
-        int[] a = {12, 13,14,  10, 5, 6};
+        int[] a = {12, 13,14, 10, 5, 6};
         insertionSort(a);
         // System.out.println(bubbleSort(LongestWord));
     }
+
+    private static void insertionSort(int[] a) {
+        // chạy vòng lặp for từ vị trí thứ 1
+        // So sánh phần tử hiện tại vs ptu đứng trc, nếu < thì so sánh tiếp những cái phần tử đứng trc đó nz
+        // những ptu lớn hơn ptu hien tại thì cta sẽ di chuyển lên 1 vị trí để tạo khoảng trống cho phần tử hiện tại
+        int n = a.length;
+//        for (int i = 1; i < n; i++) {
+//            int j = i - 1;
+//            int check = a[i];
+//            while (j >= 0 && a[j] > check) {
+//                a[j + 1] = a[j];
+//                j--;
+//            }
+//            a[j+1] = check;
+//        }
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (a[j] > a[j + 1]) {
+                    int temp = a[j];
+                    a[j] = a[j+1];
+                    a[j+1] = temp;
+                }
+            }
+        }
+        // tại vì sau mỗi vòng lặp thì phần tử lớn nhất nó sẽ ddc nằm cuối nên ko cần phải xét ptu cuối cùng
+
+        for (int i = 0; i < n; i++) {
+            System.out.print(a[i] + " ");
+        }
+    }
+
+
 
 }
 

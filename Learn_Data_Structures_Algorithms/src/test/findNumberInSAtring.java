@@ -1,35 +1,52 @@
 package test;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class findNumberInSAtring {
 
-//    public static void main(String[] args) {
-//        String test = "abc62hskfjah8";
-//        // sử dụng lớp Pattern trong java.util.regex
-//
+
 //        Pattern pattern = Pattern.compile("\\d+");
-//        Matcher matcher = pattern.matcher(test);
-//        //System.out.println(matcher);
+//        Matcher matcher = pattern.matcher(s);
 //        while (matcher.find()) {
 //            System.out.println(matcher.group());
 //        }
-//    }
 
-    // Viết chương trình đếm số từ trong một chuỗi trong Java
-//    public static void main(String[] args) {
-//        String test = "Hello word";
-//        int count = 0;
-//        for (int i = 0; i < test.length(); i++) {
-//            if (test.charAt(i) != ' ') {
-//                count++;
+//        for (int i = 0; i < s.length(); i++) {
+//            char c = s.charAt(i);
+//            if (Character.isDigit(c)) {
+//                System.out.println(c + " ");
 //            }
 //        }
+//
+
+    // Viết chương trình đếm số từ trong một chuỗi trong Java
+    //String s = "abc89ddsa"; // tổng là 11
+    public static void main(String[] args) {
+        String s = "abc89ddsa ds";
+
+//        int count  = 0;
+//        for (int i = 0; i < s.length(); i++) {
+//             if (s.charAt(i) != ' ') {
+//                 count++;
+//             }
+//        }
 //        System.out.println(count);
-//    }
+
+        //String[] res = s.replaceAll(" ", "").split()
+        String[] res = s.split(" ");
+        int c = 0;
+        for (String item : res) {
+            if (!item.isEmpty()) {
+                c += item.length();
+            }
+        }
+        System.out.println("c = " + c);
+
+    }
+
+
 
      // đếm số lần xuất hiện của 1 kí tự trong chuỗi java
 //     public static void main(String[] args) {
@@ -66,23 +83,17 @@ public class findNumberInSAtring {
 //        System.out.println(result);
 //    }
 
-    public static void main(String[] args) {
-        // đảo ngược chuỗi string bằng byte
-        String test = "Thong dep trai vl LongestWord LongestWord hihi ee";
-
-        byte[] bytes = test.getBytes();
-        byte[] arrBytes = new byte[test.length()]; //  tạo 1 mảng với số lượng ptu = so lượng chuỗi.
-
-        for (int i = 0; i < bytes.length; i++) {
-            arrBytes[i] += bytes[bytes.length - i - 1];
-        }
-        System.out.println(new String(arrBytes));
-    }
-
-
-
-
-
-
+//    public static void main(String[] args) {
+//        // đảo ngược chuỗi string bằng byte
+//        String test = "Thong dep trai vl LongestWord LongestWord hihi ee";
+//
+//        byte[] bytes = test.getBytes();
+//        byte[] arrBytes = new byte[test.length()]; //  tạo 1 mảng với số lượng ptu = so lượng chuỗi.
+//
+//        for (int i = 0; i < bytes.length; i++) {
+//            arrBytes[i] += bytes[bytes.length - i - 1];
+//        }
+//        System.out.println(new String(arrBytes));
+//    }
 
 }

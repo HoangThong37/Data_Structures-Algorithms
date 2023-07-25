@@ -21,28 +21,27 @@ public class quicksorrt {
         System.out.println();
     }
 
-    private static void sort1(int[] arr, int low, int height) {
-        if (low < height) {
-            int key = partition(arr, low, height);
+    private static void sort1(int[] arr, int low, int high) {
+        if (low < high) {
+            int key = partition(arr, low, high);
             sort1(arr, low, key - 1);
-            sort1(arr, key + 1, height);
+            sort1(arr, key + 1, high);
         }
-
     }
 
-    private static int partition(int[] arr, int low, int height) {
-        int pivot = arr[height];
-        int j = low - 1;
-
-        for (int i = low; i < height; i++) {
+    private static int partition(int[] arr, int low, int high) {
+       int pivot = arr[high];
+       int j = low-1;
+        for (int i = low; i < high; i++) {
             if (arr[i] < pivot) {
                 j++;
                 swap1(arr, i, j);
             }
         }
-        swap1(arr, j+1 ,height);
+        swap1(arr, j + 1, high);
         return j + 1;
     }
+
 
     private static void swap1(int[] arr, int j, int i) {
         int temp = arr[j];
@@ -50,7 +49,7 @@ public class quicksorrt {
         arr[i] = temp;
     }
 
-    // độ phức tạp Onlogn
+// độ phức tạp Onlogn
 // chọn pivot
 // chia đôi, chia đôi rồi sắp xếp theo pivot
 // phần tử nào nhỏ hơn thì qua trái pivot

@@ -24,7 +24,7 @@ public class li_thuyet {
             arr1[i] = arr[left + i]; // set vào arr1
         }
         for (int j = 0; j < n2; j++) {
-            arr2[j] = arr[mid+1+j]; // set vào arr2 ... từ vị trí mid + 1
+            arr2[j] = arr[mid+1+j];  // set vào arr2 ... từ vị trí mid + 1
         }
 
         // chỉ mục ban đầu
