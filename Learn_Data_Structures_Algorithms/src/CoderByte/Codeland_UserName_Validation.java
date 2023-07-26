@@ -24,10 +24,6 @@ public class Codeland_UserName_Validation {
         if (!Character.isLetter(c)) {
             return false;
         }
-
-
-
-
         return false;
     }
 
