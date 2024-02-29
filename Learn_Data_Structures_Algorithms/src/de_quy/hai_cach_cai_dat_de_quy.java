@@ -25,7 +25,7 @@ public class hai_cach_cai_dat_de_quy {
         currentMax = -1;
         int[] arr = {1,2,3,4,67,44,32,111,435,77,2,33};
         findMax(arr, 0);
-        System.out.println(currentMax);
+        System.out.println("aa" + currentMax);
 
         System.out.println(findMax2(arr, 0, -1));
     }
@@ -34,8 +34,8 @@ public class hai_cach_cai_dat_de_quy {
 // Phân loại :
 // +  Ko trả về kết quả
 //     -> áp dụng cho hầu hết các bài toán (nếu có sử dụng đệ quy)
-//    -> những bài toán lưu kết  quả
-// + Có trả về kq
+//     -> những bài toán lưu kết  quả
+//  + Có trả về kq
 //      -> khi làm việc vs CTDL có tính đệ quy (linked list, tree)
 //      -> ngắn gọn, sạch sẽ, dễ hiểu
 // + Bài toán : Tìm max cho 1 mảng

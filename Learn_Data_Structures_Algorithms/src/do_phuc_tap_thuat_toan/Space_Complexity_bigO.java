@@ -3,9 +3,9 @@ package do_phuc_tap_thuat_toan;
 public class Space_Complexity_bigO {
 }
 
-// Để mà đánh giá 1 cái chương trình có tốt / hiệu quả hay ko thì :
-//1. Bộ nhớ | Space Complexity - khoảng không gian bộ nhớ mà mình hoàn thành cái task đó
-//2. Thời gian | Time Complexity - là thời gian ctrinh cần chạy để hoàn thành cái task đó
+//  Để mà đánh giá 1 cái chương trình có tốt / hiệu quả hay ko thì :
+//1. Bộ nhớ    | Space Complexity   - khoảng không gian bộ nhớ mà mình hoàn thành cái task đó
+//2. Thời gian | Time Complexity    - là thời gian ctrinh cần chạy để hoàn thành cái task đó
 
 //  1. Bộ nhớ | Space Complexity :
 //  - là bộ nhớ mà chương trình cần sử dụng khi mà run chương trình đó

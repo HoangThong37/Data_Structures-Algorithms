@@ -39,4 +39,4 @@ public class Time_Complexity {
 // bài toán 509 leetcode
 
 // =>  Bài toán Fibo có 2 cách : ( đệ quy ) hoặc ( mảng và vòng lặp )
-// -> đánh giá thời gian chạy c2 thòi gian chạy hơn rất nhiều
+// ->  đánh giá thời gian chạy c2 thòi gian chạy hơn rất nhiều
